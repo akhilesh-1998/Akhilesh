@@ -4,6 +4,7 @@ Python - Overview
 This entire repository is dedicated to budding python enthusiats. Hope you will enjoy it. Read through the history of python as well. Few codes on advanced python added as well.
 
 History
+
 Python was conceived in the late 1980s by Guido van Rossum at Centrum Wiskunde & Informatica (CWI) in the Netherlands as a successor to ABC programming language, which was inspired by SETL, capable of exception handling and interfacing with the Amoeba operating system. Its implementation began in December 1989. Van Rossum shouldered sole responsibility for the project, as the lead developer, until 12 July 2018, when he announced his "permanent vacation" from his responsibilities as Python's Benevolent Dictator For Life, a title the Python community bestowed upon him to reflect his long-term commitment as the project's chief decision-maker. In January 2019, active Python core developers elected a 5-member "Steering Council" to lead the project. As of 2021, the current members of this council are Barry Warsaw, Brett Cannon, Carol Willing, Thomas Wouters, and Pablo Galindo Salgado.
 
 Python 2.0 was released on 16 October 2000, with many major new features, including a cycle-detecting garbage collector and support for Unicode.
@@ -15,6 +16,7 @@ Python 2.7's end-of-life date was initially set at 2015 then postponed to 2020 o
 Python 3.9.2 and 3.8.8 were expedited[53] as all versions of Python (including 2.7) had security issues, leading to possible remote code execution and web cache poisoning.
 
 Design philosophy and features
+
 Python is a multi-paradigm programming language. Object-oriented programming and structured programming are fully supported, and many of its features support functional programming and aspect-oriented programming (including by metaprogramming[57] and metaobjects (magic methods)).[58] Many other paradigms are supported via extensions, including design by contract[59][60] and logic programming.[61]
 
 Python uses dynamic typing and a combination of reference counting and a cycle-detecting garbage collector for memory management.[62] It also features dynamic name resolution (late binding), which binds method and variable names during program execution.
@@ -36,6 +38,7 @@ A common neologism in the Python community is pythonic, which can have a wide ra
 Users and admirers of Python, especially those considered knowledgeable or experienced, are often referred to as Pythonistas.[73][74]
 
 Syntax and semantics
+
 Main article: Python syntax and semantics Python is meant to be an easily readable language. Its formatting is visually uncluttered, and it often uses English keywords where other languages use punctuation. Unlike many other languages, it does not use curly brackets to delimit blocks, and semicolons after statements are allowed but are rarely, if ever, used. It has fewer syntactic exceptions and special cases than C or Pascal.[75]
 
 Hello world program:
@@ -51,6 +54,7 @@ factorial = 1 for i in range(2, n + 1): factorial *= i
 print(factorial)
 
 Development
+
 Python's development is conducted largely through the Python Enhancement Proposal (PEP) process, the primary mechanism for proposing major new features, collecting community input on issues and documenting Python design decisions.[151] Python coding style is covered in PEP 8.[152] Outstanding PEPs are reviewed and commented on by the Python community and the steering council.[151]
 
 Enhancement of the language corresponds with development of the CPython reference implementation. The mailing list python-dev is the primary forum for the language's development. Specific issues are discussed in the Roundup bug tracker hosted at bugs.python.org.[153] Development originally took place on a self-hosted source-code repository running Mercurial, until Python moved to GitHub in January 2017.[154]
